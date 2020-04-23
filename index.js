@@ -19,4 +19,6 @@ function decrement (n) {
 function makeInt(string) {
   return parseInt((makeInt(string)), 10);
 }
-function
+function preserveDecimal(string) {
+  return parseFloat(n)
+}
