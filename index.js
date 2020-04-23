@@ -16,8 +16,8 @@ function increment (n) {
 function decrement (n) {
   return --n;
 }
-function makeInt(string) {
-  return parseInt((makeInt(string)), 10);
+function makeInt(p) {
+  return parseInt(p, 10);
 }
 function preserveDecimal(y) {
   return parseFloat(y)
